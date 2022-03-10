@@ -4,7 +4,8 @@ services:
     extends:
       file: docker-compose.yml
       service: web
-    networks: reverse-proxy
+    networks: 
+      - reverse-proxy
 
 networks:
   reverse-proxy:
