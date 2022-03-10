@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  web: 
+    extends:
+      file: docker-compose.yml
+      service: web
+    networks: reverse-proxy
+
+networks:
+  reverse-proxy:
+    external: true
