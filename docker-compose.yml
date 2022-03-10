@@ -1,0 +1,5 @@
+version: '3.7'
+services:
+  web: 
+    restart: always
+    image: yeasy/simple-web:latest
