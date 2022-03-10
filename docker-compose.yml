@@ -2,4 +2,4 @@ version: '3.7'
 services:
   web: 
     restart: always
-    image: nginxdemos/hello:latest
+    image: nginxdemos/hello:plain-text
